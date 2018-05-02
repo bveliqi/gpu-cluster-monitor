@@ -1,0 +1,1 @@
+docker run --runtime=nvidia -d --restart always --name GPU_MONITOR -e HOSTNAME=`hostname` bveliqi/gpu-monitor:0.2

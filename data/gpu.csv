@@ -1,0 +1,3 @@
+index, timestamp, name, temperature.gpu, utilization.gpu [%], utilization.memory [%], memory.total [MiB], memory.free [MiB], memory.used [MiB], pstate
+0, 2018/04/30 13:21:21.761, Tesla K40m, 46, 79 %, 29 %, 11439 MiB, 486 MiB, 10953 MiB, P0
+1, 2018/04/30 13:21:21.762, Tesla K40m, 36, 0 %, 0 %, 11439 MiB, 3039 MiB, 8400 MiB, P0

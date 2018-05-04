@@ -14,7 +14,7 @@ class Entry(Document):
         'indexes': [
             {
                 'fields': ['timestamp'],
-                'expireAfterSeconds': 7 * 24 * 60 * 60 # seven days
+                'expireAfterSeconds': 14 * 24 * 60 * 60 # seven days
             }
         ]
     }

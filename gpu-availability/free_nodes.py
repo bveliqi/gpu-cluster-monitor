@@ -67,10 +67,10 @@ def free_gpus():
 
 
 def add_row_to_table(table, gpu):
-        free_since = colored(pretty_time_diff(gpu['timestamp']), 'yellow', attrs=['reverse', 'blink'])
+        free_since = colored(pretty_time_diff(gpu['timestamp']), 'yellow', attrs=['reverse'])
         name = gpu['name']
-        host = colored(gpu['host'], 'white', attrs=['reverse', 'blink'])
-        index = colored(gpu['index'], 'white', attrs=['reverse', 'blink'])
+        host = colored(gpu['host'], 'blue', attrs=['reverse'])
+        index = colored(gpu['index'], 'blue', attrs=['reverse'])
         table.add_row([free_since, name, host, index])
 
 
